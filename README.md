@@ -11,6 +11,11 @@ source install/setup.bash
 ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/cones.world
 ```
 
+Rviz visualization
+```
+rviz2 -d ./src/my_bot/config/view_bot.rviz 
+```
+
 Control using
 ```
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
