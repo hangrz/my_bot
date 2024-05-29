@@ -1,0 +1,1 @@
+/home/feniks/my_ws/6sem/mobile_robots/dev_ws/src/my_bot/launch/rsp.launch.py
