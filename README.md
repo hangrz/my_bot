@@ -43,4 +43,12 @@ ros2 run nav2_amcl amcl --ros-args -p use_sim_time:=true
 ros2 run nav2_util lifecycle_bringup amcl
 ```
 
+
+Navigation with AMCL
+```
+ros2 launch nav2_bringup localization_launch.py map:=my_map1_save.yaml use_sim_time:=true
+
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true map_subscribe_transient_local:=true
+```
+
 _Generated from template for ROS package._
